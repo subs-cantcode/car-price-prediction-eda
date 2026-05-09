@@ -67,6 +67,15 @@ The dataset contains more than 500,000 vehicle auction records with information 
 - Regression Model Training
 - Model Evaluation using MAE, RMSE, and R² Score
 
+## Dataset Download
+
+The dataset used in this project is too large to be included in this repository.
+
+You can download the dataset from Kaggle:
+https://www.kaggle.com/datasets/syedanwarafridi/vehicle-sales-data
+
+After downloading, place `car_prices.csv` in the root directory of this project.
+
 ## Author
 
 Suban Sharathi K
