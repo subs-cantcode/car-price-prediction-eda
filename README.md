@@ -69,7 +69,7 @@ The dataset contains more than 500,000 vehicle auction records with information 
 
 ## Dataset Download
 
-The dataset used in this project is too large to be included in this repository.
+Due to GitHub file size limitations, the original dataset is not included in this repository. Please download it from Kaggle and place it in the project directory before running the notebook.
 
 You can download the dataset from Kaggle:
 https://www.kaggle.com/datasets/syedanwarafridi/vehicle-sales-data
