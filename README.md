@@ -59,13 +59,57 @@ The dataset contains more than 500,000 vehicle auction records with information 
 - Seaborn
 - Scikit-learn
 
-## Machine Learning (Next Steps)
+---
 
+# 🚗 Used Car Price Prediction (Building the Machine Learning Model)
+
+An end-to-end Machine Learning project that predicts used car selling prices based on vehicle features such as manufacturing year, condition, mileage, transmission type, body type, and market value (MMR).
+
+The project covers the complete data science workflow:
+- Data Cleaning
+- Exploratory Data Analysis (EDA)
 - Feature Engineering
-- Encoding Categorical Variables
-- Train-Test Split
-- Regression Model Training
-- Model Evaluation using MAE, RMSE, and R² Score
+- Model Training using Linear Regression
+- Model Evaluation
+- Model Serialization with Joblib
+- Deployment with Streamlit
+
+---
+
+## 📊 Model Performance
+
+| Metric | Value |
+|------|------:|
+| R² Score | 0.9704 |
+| Mean Absolute Error (MAE) | 1,042.71 |
+| Root Mean Squared Error (RMSE) | 1,623.06 |
+
+---
+
+## 🛠 Technologies Used
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+- Joblib
+- Streamlit
+
+---
+
+## 📁 Project Structure
+
+```text
+used-car-price-prediction/
+├── car_prices_eda.ipynb
+├── car_prices_ml_model.ipynb
+├── app.py
+├── car_price_model.pkl
+├── model_columns.pkl
+├── requirements.txt
+└── README.md
 
 ## Dataset Download
 
